@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+  --dourado: #CBA670;
+  --cinza-escuro: #545454;
+  --marmore: #DADADA;
+  --fonte-titulo: 'Manrope', sans-serif;
+  --fonte-texto: 'Poppins', sans-serif;
+}
+body {
+    background: url(imagens/fundo-pc.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+#topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 10px;
+    font-family: var(--fonte-titulo);
+}
+.nav-list {
+    list-style-type: none;
+    background-color: #5454542d;
+    padding: 23px 0px;
+    border-radius: 40px;
+}
+.nav-list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-list a {
+    background-color: var(--marmore);
+    border-radius: 30px;
+    color: var(--cinza-escuro);
+    padding: 10px 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
+    border: 1px solid #cba77065;
+    transition: 0.2s ease;
+}
+.nav-list a:hover {
+    background-color: #545454;
+    color: #DADADA;
+    font-size: 26px;
+}
+li, a {
+    text-decoration: none;
+    color: var(--marmore);
+    font-size: 25px;
+}
+main {
+    background-color: #DADADA;
+    border-radius: 30px;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
+}
+#frase {
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+#frase h1 {
+    text-align: center;
+}
