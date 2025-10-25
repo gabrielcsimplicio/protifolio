@@ -158,17 +158,17 @@ body {
     max-height: 430px;
     height: auto;
     padding: 20px;
-    border-radius: 20px 0px 0px 20px;
     text-align: justify;
     font-family: var(--fonte-titulo);
     line-height: 1.6em;
     font-size: clamp(10px, 2vw, 1.6em);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
 }
 #sobre-mim img {
     width: 25%; 
     max-width: 600px;
     height: auto;
-    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459);
 }
 #sobre-mim p, img {
     flex: 0 1 450px;
