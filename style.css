@@ -283,7 +283,7 @@ body {
     }
 
     .slider .slider-box::after {
-    background-image: linear-gradient(to top, #000000c7, transparent);
+    background-image: linear-gradient(to top, #000000c0, rgba(0, 0, 0, 0.507));
 
 }
 }
