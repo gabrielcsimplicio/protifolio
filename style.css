@@ -276,4 +276,7 @@ body {
     #contato i {
         margin: 40px 0px;
     }
+    .slider .slider-box .texto-slider {
+    top: -5%;
+}
 }
