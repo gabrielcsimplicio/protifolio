@@ -255,12 +255,12 @@ body {
     #sobre-mim p {
         font-size: 4.3vw;
         min-height: auto;
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 380px;
+        max-height: 380px;
     }
     #sobre-mim img {
         order: -1;
-        width: 320px;
+        width: 290px;
         flex: 0 0 auto;
     }
 
