@@ -282,4 +282,8 @@ body {
         margin: 40px 0px;
     }
 
+    .slider .slider-box::after {
+    background-image: linear-gradient(to top, #000000c7, transparent);
+
+}
 }
