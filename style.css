@@ -236,7 +236,7 @@ body {
     .texto-slider h1 {
         height: 100%;
         font-size: 70px;
-        margin-top: 50%;
+        margin-top: 10%;
     }
     #setas button {
         width: 40px;
