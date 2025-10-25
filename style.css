@@ -156,6 +156,7 @@ body {
     background-color: #CBA670;
     margin: 0px 0px;
     max-height: 430px;
+    max-width: 500px;
     height: auto;
     padding: 20px;
     text-align: justify;
@@ -252,8 +253,10 @@ body {
         max-width: 100%;
     }
     #sobre-mim p {
-        font-size: 4.5vw;
+        font-size: 4.3vw;
         min-height: auto;
+        max-width: 400px;
+        max-height: 400px;
     }
     #sobre-mim img {
         order: -1;
