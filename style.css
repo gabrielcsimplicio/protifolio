@@ -312,4 +312,10 @@ body {
     .btn-nav-box {
         bottom: 30px;
     }
+    .idioma {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    }
 }
