@@ -232,7 +232,29 @@ body {
 #contato i:hover {
     font-size: 90px;
 }
-
+.idioma {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 13;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+.idioma button {
+    padding: 5px 10px;
+    border: 1px solid #DADADA;
+    color: #CBA670;
+    font-size: 30px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.idioma button.ativo {
+    background-color: #CBA670;
+    color: white;
+}
 @media (max-width: 870px) {
     body {
         background: url(imagens/fundo-cel.jpg);

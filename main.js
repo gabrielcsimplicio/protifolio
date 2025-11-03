@@ -49,3 +49,32 @@ btnNav.forEach((btn, indice)=>{
         mostrarSlider()
     })
 })
+
+const translations = {
+  pt: {
+    slogan: "Tornando o digital mais <br><strong>humano,</strong><br>um pixel de cada vez.",
+    sobre: "Olá! Meu nome é Gabriel Castilho, tenho 22 anos e sou de Guarulhos, São Paulo, Brasil. Sou um desenvolvedor FrontEnd em busca de novos desafios. Meu foco é em HTML5, CSS3 e JavaScript e você pode conferir meus projetos logo ao lado."
+  },
+  en: {
+    slogan: "Making digital more <br><strong>human,</strong><br>one pixel at a time.",
+    sobre: "Hello! My name is Gabriel Castilho, I'm 22 years Front-End Developer from Guarulhos, São Paulo, Brazil. I'm looking for new challenges. My focus is on HTML5, CSS3, and JavaScript, and you can check out my projects right next to this section."
+  }
+};
+
+function setLanguage(lang) {
+  // Atualiza o texto
+  document.querySelectorAll("[data-translate]").forEach(el => {
+    const key = el.getAttribute("data-translate");
+    el.innerHTML = translations[lang][key];
+  });
+
+  // Atualiza o destaque dos botões
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.remove("ativo");
+  });
+
+  const btnAtivo = document.querySelector(`.lang-btn[data-lang="${lang}"]`);
+  if (btnAtivo) {
+    btnAtivo.classList.add("ativo");
+  }
+}
